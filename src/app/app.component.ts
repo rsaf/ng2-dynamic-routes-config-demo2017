@@ -16,6 +16,10 @@ export class AppComponent  {
       {
         path: 'home',
         loadChildren: 'app/components/home/home.module#HomeModule'
+      },
+      {
+        path: 'external',
+        loadChildren: 'app/components/external/external.module#ExternalModule'
       }
     ]
     router.resetConfig(routes);
